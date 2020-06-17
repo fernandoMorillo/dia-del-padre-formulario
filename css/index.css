@@ -1,0 +1,126 @@
+* {
+    font-family: "Arimo", sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.fondo {
+    background-image: url("../img/papa.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.pos-logo {
+    margin-left: 14px !important;
+}
+
+.color-button {
+    background-color: #47d078;
+    color: #ffff !important;
+    border-radius: 5px !important;
+}
+
+.color-button:hover {
+    background-color: #008458;
+}
+
+.uk-card {
+    border-radius: 10px !important;
+    color: #ffffff;
+    background-color: #1baf8f !important;
+    opacity: 0.99;
+}
+
+.uk-section {
+    padding-bottom: 0 !important;
+    padding-top: 11px !important;
+}
+
+.center-btn {
+    width: 100%;
+}
+
+.concurso {
+    width: 100%;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #008458;
+    border-color: #008458;
+    width: 100%;
+}
+
+.inscribir {
+    text-align: center;
+}
+
+.inscribir h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 417px) and (min-width: 360px) {
+    .fondo {
+        height: 100vh;
+        background-image: url("../img/papa-min.png");
+        background-repeat: no-repeat;
+    }
+
+    .pos-logo {
+        margin-left: 134px;
+    }
+
+    .center-btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1024px) {
+    .fondo {
+        height: 100vh;
+        background-image: url("../img/papa.png");
+        background-repeat: no-repeat;
+    }
+
+    .pos-logo {
+        margin-left: 134px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .fondo {
+        height: 100vh;
+        background-image: url("../img/papa-min.png");
+        background-repeat: no-repeat;
+    }
+
+    .pos-logo {
+        margin-left: 134px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .fondo {
+        height: 100vh;
+        background-image: url("../img/papa-min.png");
+        background-repeat: no-repeat;
+    }
+
+    .pos-logo {
+        margin-left: 114px;
+    }
+
+    .center-btn {
+        width: 100%;
+    }
+
+    .uk-card-body {
+        padding: 6px 30px !important;
+    }
+}
