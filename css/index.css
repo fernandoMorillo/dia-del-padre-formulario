@@ -17,15 +17,7 @@ body {
     margin-left: 14px !important;
 }
 
-.color-button {
-    background-color: #47d078;
-    color: #ffff !important;
-    border-radius: 5px !important;
-}
 
-.color-button:hover {
-    background-color: #008458;
-}
 
 .uk-card {
     border-radius: 10px !important;
@@ -51,9 +43,13 @@ body {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #008458;
-    border-color: #008458;
+    background-color: #008458!important;
+    border-color: #008458!important;
     width: 100%;
+}
+.btn-primary:hover {
+    background-color: #008458!important;
+    border-color: #008458;
 }
 
 .inscribir {

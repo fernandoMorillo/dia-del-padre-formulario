@@ -37,37 +37,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 d-flex flex-wrap">
-                <div class="uk-section uk-container-large center-btn">
-                    <div class="uk-container uk-container-large">
-                        <div class="uk-container uk-container-small uk-hight-medium">
-                            <div class="uk-card uk-card-hover uk-card-body color-tarjeta">
-                                <form>
-                                    <div class="inscribir">
-                                        <h3>Inscribir a papá</h3>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="name">Nombres y apellidos</label>
-                                        <input type="text" class="form-control" id="name">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="celular">Celular</label>
-                                        <input type="number" class="form-control" id="celular">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="namefather">Nombre del padre</label>
-                                        <input type="text" class="form-control" id="namefather">
-                                    </div>
-                                    <div class="concurso">
-                                        <button type="submit" class="btn btn-primary">Concursar</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                <div class="uk-section uk-container-large center-btn uk-hight-medium">
+                    <h1 style="color: white">Gracias pos inscribirte en el sorteo #Unhomenajeapapa</h1>
                 </div>
             </div>
         </div>
@@ -82,9 +53,9 @@
             </div>
             <div class="col-md-6 d-flex align-items-center justify-content-center justify-content-md-end">
                 <label style="margin: 10px; color: white"><a href="https://www.facebook.com/Olivos.Ctg/"><img
-                        src="img/fb.png" alt="facebook" width="35"></a></label>
+                            src="img/fb.png" alt="facebook" width="35"></a></label>
                 <label style="margin: 10px; color: white"><a href="https://www.instagram.com/olivos.ctg/"><img
-                        src="img/ig_logo.png" alt="instagram" width="35"></a></label>
+                            src="img/ig_logo.png" alt="instagram" width="35"></a></label>
                 <label style="margin: 10px; color: white"><a
                         href="https://api.whatsapp.com/send?phone=+573008131043"><img src="img/ws.png"
                                                                                       alt="whatsapp"
